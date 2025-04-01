@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v442_137 {
+  width: 100%;
+  height: 900px;
+  background: rgba(239, 234, 228, 1);
+  background: url(./TMAnh/Dangnhap.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+}
+.v442_138 {
+  width: 80%;
+  height: 638px;
+  background: rgba(255, 255, 255, 0.699999988079071);
+  opacity: 1;
+  position: absolute;
+  top: 131px;
+  left: 152px;
+  right: 152px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.v442_141 {
+  width: 277px;
+  color: rgba(49, 87, 86, 1);
+  position: absolute;
+  top: 70px;
+  left: 206px;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.v442_143 {
+  width: 364px;
+  color: rgba(49, 87, 86, 1);
+  position: absolute;
+  top: 123px;
+  left: 33px;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v442_152 {
+  width: 208px;
+  color: rgba(49, 87, 86, 1);
+  position: absolute;
+  top: 123px;
+  left: 613px;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v442_156 {
+  width: 501px;
+  color: rgba(49, 87, 86, 1);
+  position: absolute;
+  top: 253px;
+  left: 616px;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v442_154 {
+  width: 502px;
+  color: rgba(49, 87, 86, 1);
+  position: absolute;
+  top: 296px;
+  left: 613px;
+  font-family: Raleway;
+  font-weight: Medium;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v442_145 {
+  width: 111px;
+  color: rgba(49, 87, 86, 1);
+  position: absolute;
+  top: 266px;
+  left: 36px;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v442_151 {
+  width: 177px;
+  color: rgba(49, 87, 86, 1);
+  position: absolute;
+  top: 536px;
+  left: 44px;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v442_148 {
+  width: 200px;
+  color: rgba(49, 87, 86, 1);
+  position: absolute;
+  top: 406px;
+  left: 77px;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.v442_142 {
+  width: 133px;
+  color: rgba(49, 87, 86, 1);
+  position: absolute;
+  top: 70px;
+  left: 789px;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.form1 {
+  width: 500px;
+  height: 75px;
+  position: absolute;
+  left: 36px;
+  top: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email {
+  width: 500px;
+  height: 75px;
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+.form2 {
+  width: 500px;
+  height: 75px;
+  position: absolute;
+  top: 313px;
+  left: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.password {
+  width: 500px;
+  height: 75px;
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+.form3 {
+  width: 500px;
+  height: 75px;
+  position: absolute;
+  top: 170px;
+  left: 616px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox{
+  width: 20px;
+  height: 19px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 402px;
+  left: 39px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+
+.v442_149 {
+  width: 178px;
+  height: 56px;
+  background: rgba(49, 87, 86, 1);
+  opacity: 1;
+  position: absolute;
+  top: 454px;
+  left: 39px;
+  overflow: hidden;
+}
+.v443_149 a{
+  text-decoration: none;
+}
+.v442_150 {
+  width: 114px;
+  color: rgba(239, 234, 228, 1);
+  position: absolute;
+  top: 15px;
+  left: 34px;
+  font-family: Raleway;
+  font-weight: Bold;
+  text-decoration: none;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.v442_157 {
+  width: 178px;
+  height: 56px;
+  background: rgba(49, 87, 86, 1);
+  opacity: 1;
+  position: absolute;
+  top: 454px;
+  left: 616px;
+  overflow: hidden;
+}
+.v442_158 {
+  width: 86px;
+  color: rgba(239, 234, 228, 1);
+  position: absolute;
+  top: 15px;
+  left: 46px;
+  font-family: Raleway;
+  font-weight: Bold;
+  text-decoration: none;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}

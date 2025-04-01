@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "TenGH": "Bàn nước Orientale walnut",
+        "KTSP": "pa_kich-thuoc 3800  pa_vat-lieu: 3795",
+        "Giaban": 21900000,
+        "KhunganhGH": "./TMAnh/spO1.png"
+    }
+    {
+        "id":2,
+        "TenGH": "Sofa 1 chỗ Orientale da beige R5",
+        "KTSP": "pa_kich-thuoc 3800  pa_vat-lieu: 3795",
+        "Giaban": 21900000,
+        "KhunganhGH": "./TMAnh/spO2.png"
+    }
+    {
+        "id":3,
+        "TenGH": "Sofa 3 chỗ Orientale da beige R5",
+        "KTSP": "pa_kich-thuoc 3800  pa_vat-lieu: 3795",
+        "Giaban": 21900000,
+        "KhunganhGH": "./TMAnh/spO3.png"
+    }
+    {
+        "id":4,
+        "TenGH": "Bàn ăn 8 chỗ Orientale Walnut",
+        "KTSP": "pa_kich-thuoc 3800  pa_vat-lieu: 3795",
+        "Giaban": 21900000,
+        "KhunganhGH": "./TMAnh/spO4.png"
+    }
+    {
+        "id":55,
+        "TenGH": "Ghế ăn Orientale da beige R5",
+        "KTSP": "pa_kich-thuoc 3800  pa_vat-lieu: 3795",
+        "Giaban": 21900000,
+        "KhunganhGH": "./TMAnh/spO5.png"
+    }
+]

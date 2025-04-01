@@ -1,0 +1,930 @@
+* {
+    box-sizing: border-box;
+  }
+  :root {
+    --trang--: rgba(255, 255, 255, 1);
+    --trang1--: rgba(239, 234, 228, 1);
+    --xanh--: rgba(49, 87, 86, 1);
+    --xanh1--: rgba(80, 87, 86, 1);
+    --be--: rgba(255, 239.4639104604721, 215.05002290010452, 1);
+    --trang2--: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+}
+  body {
+    font-size: 14px;
+    overflow-x: hidden;
+    background-color: var(--trang1--);
+  }
+  #cart{
+	height:0px;
+	font-size: 33px;
+	text-decoration: none;
+	color: var(--xanh--);
+	transition: 0.3s ease;
+	position:absolute;
+}
+.e12_123 {
+  width: 100%;
+  height: 400px;
+  background-color: var(--trang1--);
+  background-position: center;
+  background-size: cover;
+}
+.ei12_123_12_9 {
+  width: 100%;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+}
+.ei12_123_12_10 {
+  width: 100%;
+  position: absolute;
+  top: -30px;
+  font-family: Raleway;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.fa-solid fa-circle-user {
+  top: 90px;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  text-decoration: none;
+  width: 100%;
+  @media (min-width: 400px) {
+    display: inline-block;
+    &:nth-of-type(even) {
+      margin-right: 0;
+    }
+  }
+  @media (min-width: 600px) {
+    margin: 0 1em 2em;
+  }
+  &:nth-of-type(5) {
+    margin-right: 0;
+  }
+}
+&:hover {
+  text-decoration: none;
+}
+.btn-2 {
+  letter-spacing: 0;
+}
+.btn-2:hover,
+.btn-2:active {
+  letter-spacing: 1px;
+}
+.btn-2:after,
+.btn-2:before {
+  backface-visibility: hidden;
+  border: 1px solid var(--xanh--);
+  border-style: dashed;
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+  backface-visibility: hidden;
+  border-color: var(--xanh--);
+  transition: width 350ms ease-in-out;
+  width: 100%;
+}
+
+.btn-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 100%;
+}
+
+.ei12_123_12_10 li {
+  text-decoration: none;
+  flex-direction: row;
+  display: inline;
+}
+.ei12_123_12_10 li a {
+  top: 20px;
+  text-decoration: none;
+  color: var(--xanh--);
+  display: inline;
+  transition: 0.3s ease;
+  position: relative;
+}
+.ei12_123_268_105 {
+  width: 124px;
+  height: 120px;
+  position: absolute;
+  left: 27px;
+  top: 0px;
+}.v41_350 {
+  width: 326px;
+  color: var(--xanh--);
+  position: absolute;
+  top: 293px;
+  left: 51px;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.KCSP{
+    color: var(--xanh--);
+  position: absolute;
+  top: 350px;
+  left: 51px;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.e199_262 {
+	width: px;
+	height: 0px;
+	position: absolute;
+	left: 27px;
+	top: 0px;
+}
+
+.e199_263 {
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.e199_264 {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	background-image: url(TMAnh/premium_vector___river_house_monoline_logo_template_universal_creative_premium_symbol_vector_sign_icon__1_.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.e199_265 {
+	background-color: var(--trang1--);
+	width: 120px;
+	height: 34px;
+	position: absolute;
+	left: 2px;
+	top: 70px;
+}
+
+.e199_266 {
+	color: rgba(70.00000342726707, 57.00000040233135, 49.00000087916851, 1);
+	width: 82px;
+	height: 11px;
+	position: absolute;
+	left: 21px;
+	top: 75px;
+	font-family: Sorts Mill Goudy;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 0;
+}
+
+.e199_267 {
+	color: rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 1);
+	width: 111px;
+	height: 5px;
+	position: absolute;
+	left: 6px;
+	top: 95px;
+	font-family: Solway;
+	text-align: center;
+	font-size: 6px;
+	letter-spacing: 0;
+}
+  
+.form {
+    width: 300px;
+    height: 6px;
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+}
+.form1 {
+    width: 465px;
+    height: 6px;
+    opacity: 1;
+    position: absolute;
+    top: 150px;
+    left: 13px;
+}
+form {
+  height: 45px;
+  position: absolute;
+  left: 15px;
+  top: 210px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #333;
+  overflow: hidden;
+  width: 100%;
+  max-width: 750px;
+  background-color: #f5f5f5;
+}
+
+.text {
+    width: 5000px;
+    height: 60px;
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  .text1 {
+    width: 5000px;
+    height: 60px;
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+.request-invite-btn {
+  background-color: #2f4f4f;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.request-invite-btn:hover {
+  background-color: #1e3d3d;
+}
+#backToTop {
+  background-color: #2f4f4f;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px 30px 30px 30px;
+}
+#backToTop:hover {
+background-color: #1e3d3d;
+}
+.close {
+	cursor: pointer;
+}
+.close:hover {
+	color: #f58551;
+}
+.e50_609 {
+width: 139px;
+height: 76px;
+position: absolute;
+right: 5%;
+top: 194px;
+}
+.e49_590 {
+background-color: var(--xanh--);
+width: 60px;
+height: 60px;
+position: absolute;
+right:6%;
+border-radius: 100px;
+}
+.e49_592 { 
+width:25px;
+height:12.5px;
+position:absolute;
+left:17.5px;
+top:32.5px;
+}
+.e49_594 { 
+color:var(--xanh--);
+width:64px;
+height:42px;
+position:absolute;
+left:0px;
+top:10px;
+font-family:Solitreo;
+text-align:center;
+font-size:15px;
+letter-spacing:0;
+}
+.e369_797 {
+width: 100%;
+height: 319px;
+position: absolute;
+}
+.e369_767 {
+margin-top: 370px;
+background-color: var(--xanh--);
+color: var(--trang--);
+width: 100%;
+height: 319px;
+position: absolute;
+display: flex;
+justify-content: center;
+}
+.e369_767_tb{
+width: 33.33%;
+}
+.e369_768 {
+color: var(--trang--);
+width: 257px;
+height: 38px;
+position: absolute;
+left: 30px;
+top: 43px;
+font-family: Raleway;
+text-align: center;
+font-size: 32px;
+letter-spacing: 0;
+}
+
+.e369_769 {
+color: var(--trang--);
+width: 336px;
+height: 38px;
+position: absolute;
+top: 43px;
+font-family: Raleway;
+text-align: center;
+font-size: 32px;
+letter-spacing: 0;
+}
+
+.e369_770 {
+width: 350px;
+height: 38px;
+position: absolute;
+top: 43px;
+font-family: Raleway;
+text-align: center;
+font-size: 32px;
+letter-spacing: 0;
+}
+
+.e369_771 {
+width: 311px;
+height: 32px;
+position: absolute;
+top: 177px;
+font-family: Raleway;
+text-align: center;
+font-size: 27px;
+letter-spacing: 0;
+}
+
+.e369_772 {
+width: 240px;
+height: 64px;
+position: absolute;
+top: 102px;
+font-family: Rasa;
+text-align: left;
+font-size: 26px;
+letter-spacing: 0;
+}
+
+.e369_773 {
+width: 117px;
+height: 64px;
+position: absolute;
+top: 177px;
+font-family: Rasa;
+text-align: left;
+font-size: 26px;
+letter-spacing: 0;
+}
+
+.e369_774 {
+width: 500px;
+height: 32px;
+position: absolute;
+left: 70px;
+top: 102px;
+font-family: Rasa;
+text-align: left;
+font-size: 26px;
+letter-spacing: 0;
+}
+
+.e369_775 {
+width: 512px;
+height: 32px;
+position: absolute;
+left: 70px;
+top: 220px;
+font-family: Rasa;
+text-align: left;
+font-size: 26px;
+letter-spacing: 0;
+}
+.e369_776 {
+width: 270px;
+height: 32px;
+position: absolute;
+left: 70px;
+top: 161px;
+font-family: Rasa;
+text-align: left;
+font-size: 26px;
+letter-spacing: 0;
+}
+.e369_777 {
+width: 311px;
+height: 45px;
+position: absolute;
+top: 231px;
+background-image: url(TMAnh/image_12.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.v369_756 {
+width: 300px;
+height: 46px;
+background: url(./TMAnh/contact.png);
+background-size: 100%;
+position: absolute;
+top: 102px;
+}
+.e41_266 {
+background-color: var(--trang1--);
+width: 100%;
+height: 350px;
+position: absolute;
+left: 0px;
+top:2740px;
+display: grid;
+gap: 30px;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 350px;
+grid-template-areas:
+  "a a b b b b  c"
+}
+.cell-1 {
+grid-area: a;
+}
+.cell-2 {
+grid-area: b;
+}
+.cell-3 {
+grid-area: c;
+}
+.e41_267 { 
+width: 210px;
+height: 206px;
+position: absolute;
+left: 10%;
+top: 47px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.e41_268 {
+top:40px;
+color: var(--xanh--);
+width: 716px;
+height: 47px;
+position: absolute;
+
+font-family: Raleway;
+text-align: center;
+font-size: 40px;
+letter-spacing: 0;
+}
+.e41_269 {
+color: var(--xanh--);
+width: 893px;
+height: 56px;
+position: absolute;
+top: 100px;
+font-family: Raleway;
+text-align: left;
+font-size: 24px;
+letter-spacing: 0;
+}
+.Giohang{
+    display:flex;
+    flex-direction: column;
+}
+.KhungGiohang{
+border-bottom: 1px solid #000;
+background-color: var(--trang1--);
+    width:60%;
+    height: 200px;
+}
+.checkbox{
+    width: 20px;
+    height: 19px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+.KhunganhGH{
+    width: 246px;
+  height: 164px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  margin-top:10px;
+  position: absolute;
+  border: 1px solid rgba(49,87,86,1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.TenGH{
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    margin: -125px 300px;
+    font-family: Raleway;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+.Giaban{
+    width: 121px;
+    color: rgba(186,12,12,1);
+    position: absolute;
+    margin: -100px 300px;
+    font-family: Raleway;
+    font-weight: SemiBold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .Tensl{
+    width: 200px;
+    height: 27px;
+    opacity: 1;
+    font-size: 18px;
+    font-family: Raleway;
+    position: absolute;
+    margin: -50px 300px;
+    overflow: hidden;
+  }
+.remove{
+    margin:-200px 600px;
+    font-size: 45px;
+    z-index: 33;
+}
+.quantity,
+.remove {
+	width: 50%;
+	text-align: center;
+}
+
+.quantity>input {
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	position: relative;
+	left:190px;
+    top:-63px;
+	background: #fff;
+	border: 2px solid #ddd;
+	text-align: center;
+	font: 500 1.55rem Helvetica, Arial, sans-serif;
+}
+
+.quantity>input:hover,
+.quantity>input:focus {
+	border-color: #f58551;
+}
+.TTDH {
+    width: 526px;
+    height: 663px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top:320px;
+    left: 60%;
+    overflow: hidden;
+    border: 1px solid; 
+  }
+  .v536_514 {
+    width: 303px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 18px;
+    left: 28px;
+    font-family: Radio Canada;
+    font-weight: SemiBold;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v536_515 {
+    width: 82px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 89px;
+    left: 28px;
+    font-family: Radio Canada;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v539_532 {
+    width: 106px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 290px;
+    left: 28px;
+    font-family: Radio Canada;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v539_534 {
+    width: 155px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 322px;
+    left: 28px;
+    font-family: Radio Canada;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v536_517 {
+    width: 88px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 125px;
+    left: 28px;
+    font-family: Radio Canada;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .TTien {
+    width: 108px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 89px;
+    left: 370px;
+    font-family: Radio Canada;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v539_533 {
+    width: 108px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 290px;
+    left: 370px;
+    font-family: Radio Canada;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .checkbox1{
+    width: 20px;
+    height: 19px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 157px;
+    left: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+  }
+  .checkbox2{
+    width: 20px;
+    height: 19px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 177px;
+    left: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+  }
+  .v539_526 {
+    width: 152px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 159px;
+    left: 54px;
+    font-family: Radio Canada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v539_527 {
+    width: 133px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 183px;
+    left: 54px;
+    font-family: Radio Canada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v539_528 {
+    width: 330px;
+    height: 42px;
+    background: url("../images/v539_528.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 231px;
+    left: 28px;
+    overflow: hidden;
+  }
+  .v539_530 {
+    width: 89px;
+    color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    font-family: Radio Canada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v539_590 {
+    width: 464px;
+    height: 42px;
+    background: url("../images/v539_590.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 358px;
+    left: 28px;
+    overflow: hidden;
+  }
+  .v539_591 {
+    width: 170px;
+    color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    font-family: Radio Canada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .Apdung {
+    width: 113px;
+    height: 42px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: absolute;
+    top: 231px;
+    left: 379px;
+    overflow: hidden;
+  }
+  .ND {
+    width: 62px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 12px;
+    left: 26px;
+    font-family: Radio Canada;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v539_523 {
+    width: 24px;
+    height: 24px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    overflow: hidden;
+  }
+
+  .v539_525 {
+    width: 12px;
+    height: 12px;
+    background: url("../images/v539_525.png");
+    opacity: 1;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+  }
+  .v536_518 {
+    width: 24px;
+    height: 24px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 156px;
+    left: 20px;
+    overflow: hidden;
+  }
+  .v539_535 {
+    width: 464px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 417px;
+    left: 28px;
+    font-family: Radio Canada;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v539_536 {
+    width: 217px;
+    height: 55px;
+    opacity: 1;
+    position: absolute;
+    top: 578px;
+    left: 28px;
+    overflow: hidden;
+    border: 1px solid;
+  }
+  .v539_582 {
+    width: 150px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 19px;
+    left: 50px;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-family: Radio Canada;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v539_537 {
+    width: 216px;
+    height: 55px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: absolute;
+    top: 578px;
+    left: 276px;
+    overflow: hidden;
+  }
+  .v539_588 {
+    width: 100px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 19px;
+    left: 71px;
+    font-family: Radio Canada;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  
